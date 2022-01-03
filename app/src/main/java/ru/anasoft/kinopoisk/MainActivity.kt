@@ -3,6 +3,7 @@ package ru.anasoft.kinopoisk
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import ru.anasoft.kinopoisk.databinding.ActivityMainBinding
+import ru.anasoft.kinopoisk.view.MainFragment
 
 class MainActivity : AppCompatActivity() {
 
