@@ -1,5 +1,5 @@
 package ru.anasoft.kinopoisk.model
 
 interface Repository {
-    fun getFilmFromServer():Film
+    fun getListOfFilmsFromServer():List<Film>
 }
