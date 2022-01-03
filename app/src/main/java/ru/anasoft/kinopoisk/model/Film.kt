@@ -4,7 +4,10 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Film (val id_kinopoisk:Int = 0, val title:String = "Test", val year:Int? = null):Parcelable
+data class Film (val id_kinopoisk:Int = 0,
+                 val title:String = "Test",
+                 val year:Int? = null,
+                 val rating_kinopoisk:String? = ""):Parcelable
 
 fun getListOfFilms() = listOf(
     Film(0,"Test1"),
